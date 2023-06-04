@@ -1,0 +1,38 @@
+.logo {
+    margin-bottom: 570px;
+    width: 140px;
+    margin-top: 20px;
+    margin-left: 310px;
+}
+
+.patern {
+    height: 799px;
+    margin-top: -735px;
+    margin-left: 813px;
+    margin-bottom: -10px;
+}
+
+#container {
+    background-color: #ECFFFD;
+    margin: -8px;
+    height: 789px;
+}
+
+#container2 {
+    background-color: #ECFFFD;
+    margin: -8px;
+    height: 789px;
+}
+
+.topnav {
+    background-color: #46A8A9;
+    overflow: hidden;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
