@@ -22,7 +22,7 @@
         echo '<input type="text" class="card-text" name="role" value="'.$row['Phone_Number'].'" style="border: none;font-size: large;width: 130px;background-color: lightBlue;color: #1F6C74;">';
         echo '<label for="name" style="font-weight: bold;color: #1F6C74;">Medical Aid Number:</label>';
         echo '<input type="text" class="card-text" name="role" value="'.$row['Medical_Aid_Number'].'" style="border: none;font-size: large;width: 170px;background-color: lightBlue;color: #1F6C74;">';
-        echo '<a class="btn" href="update_docters.php?id=' . $row['ID'] . '" role="button" style="margin-top: 7px;margin-left: 20px;background-color: #215273;color: #55C595;font-size: large;font-weight: bold;">Update</a>';//EDIT
+        echo '<a class="btn" href="?id=' . $row['ID'] . '" role="button" style="margin-top: 7px;margin-left: 20px;background-color: #215273;color: #55C595;font-size: large;font-weight: bold;">Update</a>';//EDIT
         echo '<a class="btn" href="?id=' . $row['ID'] . '" role="button" style="margin-top: -41px;margin-left: 130px;background-color: #215273;color: #55C595;font-size: large;font-weight: bold;">Delete</a>';//UPDATE
         echo '</form>';
         echo '</div>';

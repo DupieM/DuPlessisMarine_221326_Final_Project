@@ -20,6 +20,18 @@
                     Log out
                 </button>
             </a>
-        </div>   
+        </div>
+
+        <div style="text-align: center;">
+            <h1 style="color: #215273; font-size: 40pt; font-weight: 400;">Appointments</h1>
+            <h3 style="color: #215273; font-size: 35pt; font-weight: 300;">25-30 June</h3>
+        </div>
+
+
+
+        <div style="text-align: center;">
+            <a class="btn" href="" role="button" style="border: none;background-color: #215273;color: #FE5955;font-size: large;font-weight: 600;">Book Appointment</a>
+        </div>
+
     </body>
 </html>

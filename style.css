@@ -1,21 +1,6 @@
 .logo {
-    margin-bottom: 570px;
     width: 140px;
-    margin-top: 20px;
-    margin-left: 310px;
-}
-
-.patern {
-    height: 799px;
-    margin-top: -835px;
-    margin-left: 813px;
-    margin-bottom: -10px;
-}
-
-#container {
-    background-color: #ECFFFD;
-    margin: -8px;
-    height: 789px;
+    margin-top: 15px;
 }
 
 .topnav {
