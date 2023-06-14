@@ -1,7 +1,7 @@
 <?php
     include 'db.php';
 
-    $sql= "SELECT * FROM docters";
+    $sql= "SELECT * FROM receptionists";
 
     $result = $conn->query($sql);
 
@@ -20,14 +20,12 @@
         echo '<input type="text" class="card-text" name="gender" value="'.$row['Email'].'" style="border: none;font-size: large;width: 170px;background-color: lightBlue;color: #1F6C74;">';
         echo '<label for="name" style="font-weight: bold;color: #1F6C74;">Phone Number:</label>';
         echo '<input type="text" class="card-text" name="role" value="'.$row['Phone_Number'].'" style="border: none;font-size: large;width: 130px;background-color: lightBlue;color: #1F6C74;">';
-        echo '<label for="name" style="font-weight: bold;color: #1F6C74;">Specialisation:</label>';
-        echo '<input type="text" class="card-text" name="role" value="'.$row['Specialisation'].'" style="border: none;font-size: large;width: 170px;background-color: lightBlue;color: #1F6C74;">';
-        echo '<label for="name" style="font-weight: bold;color: #1F6C74;">Room Number:</label>';
-        echo '<input type="text" class="card-text" name="role" value="'.$row['Room_Number'].'" style="border: none;font-size: large;width: 140px;background-color: lightBlue;color: #1F6C74;">';
+        echo '<label for="name" style="font-weight: bold;color: #1F6C74;">Rank:</label>';
+        echo '<input type="text" class="card-text" name="rank" value="'.$row['Rank'].'" style="border: none;font-size: large;width: 170px;background-color: lightBlue;color: #1F6C74;">';
         echo '<input type="hidden" name="id" value="'.$row['ID'].'">';
         echo '<img src="img/'.$row['Profile_pic'].'" style="margin-left: 210px;margin-top: -380px;width: 290px; height: 470px;">';
-        echo '<a class="btn" href="update_docters.php?id=' . $row['ID'] . '" role="button" style="margin-top: -90px;background-color: #215273;color: #55C595;font-size: large;font-weight: bold;">Update</a>';//EDIT
-        echo '<a class="btn" href="?id=' . $row['ID'] . '" role="button" style="margin-top: -90px;margin-left: 110px;background-color: #215273;color: #55C595;font-size: large;font-weight: bold;">Delete</a>';//UPDATE
+        echo '<a class="btn" href="docters.php?id=' . $row['ID'] . '" role="button" style="margin-top: -90px;background-color: #215273;color: #55C595;font-size: large;font-weight: bold;">Update</a>';//EDIT
+        echo '<a class="btn" href="delete.php?id=' . $row['ID'] . '" role="button" style="margin-top: -90px;margin-left: 110px;background-color: #215273;color: #55C595;font-size: large;font-weight: bold;">Delete</a>';//UPDATE
         echo '</form>';
         echo '</div>';
         echo '</div>';

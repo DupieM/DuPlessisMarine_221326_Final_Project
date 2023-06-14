@@ -33,7 +33,7 @@
 
         <div style="margin-left: 60px;margin-right: 20px;">
         <div class="row">
-            <?php include 'crud\read2.php'; ?>
+            <?php include 'pat_read.php'; ?>
         </div>
         </div>
 
