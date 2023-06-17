@@ -13,7 +13,7 @@
     $profileimage = $_POST['image'];
 
     $sql = "INSERT INTO docters (Name, Surname, Age, Gender, Email, Phone_Number, Specialisation, Room_Number) VALUES ('$name', 
-    '$surname','$age','$email','$phonenumber','$specialisation','$roomnumber')";
+    '$surname','$gender','$age','$email','$phonenumber','$specialisation','$roomnumber')";
 
     $conn->query($sql);
     $conn->close();
