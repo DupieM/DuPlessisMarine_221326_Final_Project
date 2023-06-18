@@ -33,7 +33,7 @@
                 </form>
             </div>
     
-            <img src="img\login.png" alt="image of patern" style="height: 795.5px;margin-left: 815.5px;margin-top: -740px;">
+            <img src="img\login.png" alt="image of patern" style="height: 795.5px;margin-left: 815.5px;margin-top: -735px;">
             
         </div>
         
