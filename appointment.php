@@ -31,7 +31,7 @@
 
 
         <div style="text-align: center;">
-            <a class="btn" href="" role="button" style="border: none;background-color: #215273;color: #FE5955;font-size: large;font-weight: 600;">Book Appointment</a>
+            <a class="btn" href="book_appointment.php" role="button" style="border: none;background-color: #215273;color: #FE5955;font-size: large;font-weight: 600;">Book Appointment</a>
         </div>
 
     </body>

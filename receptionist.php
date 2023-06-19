@@ -26,7 +26,7 @@
 
         <div style="text-align: center;">
             <h1 style="color: #215273; font-size: 40pt; font-weight: 400;">Receptionists List</h1>
-            <a class="btn" href="" role="button" style="border: none;background-color: #215273;color: #FE5955;font-size: large;font-weight: 600;">Add Receptionist</a>
+            <a class="btn" href="create_receptionist.php" role="button" style="border: none;background-color: #215273;color: #FE5955;font-size: large;font-weight: 600;">Add Receptionist</a>
         </div>
 
         </br>

@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
 
-    <body style="background-color: #ECFFFD;">
+    <body style="">
         <div class="topnav">
             <img src="img\dv logo.png" alt="logo" height="79" style="padding: 5px;">
             <a href="docters.php" style="margin-left: 420px;font-size: 18pt;font-weight: 500;color: #87E4DA;text-decoration-line: none;"><img src="img\icon_doc.png" alt="doc" height="51">Doctors</a>
@@ -23,45 +23,48 @@
             </a>
         </div>
 
-        <!-- <img src="img\update_docter.png" alt="image of patern" style="height: 600px;"> -->
-
-        <div style="text-align: center; margin-top:">
-            <h1 style="color: #215273; font-size: 40pt; font-weight: 400;">Add Docter</h1>
-        </div>
-
-        <div style="width: 320px;height 300px;background-color: white;border: 2px solid black;">
-            <form class="form-inline m-2" action="create.php" method="POST">
-                <label for="name">Name:</label>
-                <input type="text" class="form-control m-1" id="name" name="name" style="width: 240px;">
-                <label for="score">Surname:</label>
-                <input type="text" class="form-control m-1" id="surname" name="surname" style="width: 240px;">
-                <label for="score">Age:</label>
-                <input type="number" class="form-control m-1" id="age" name="age" style="width: 240px;">
-                <label for="score">Gender:</label>
-                <input type="text" class="form-control m-1" id="gender" name="gender" style="width: 240px;">
-                <label for="score">Email:</label>
-                <input type="text" class="form-control m-1" id="email" name="email" style="width: 240px;">
-                <label for="score">Password:</label>
-                <input type="text" class="form-control m-1" id="password" name="password" style="width: 240px;">
-                <label for="score">Phone Number:</label>
-                <input type="number" class="form-control m-1" id="phonenumber" name="phonenumber" style="width: 240px;">
-                <label for="score">Specialisation:</label>
-                <input type="text" class="form-control m-1" id="specialisation" name="specialisation" style="width: 240px;">
-                <label for="score">Room Number:</label>
-                <input type="text" class="form-control m-1" id="roomnumber" name="roomnumber" style="width: 240px;">
-                <label for="score">Profile Picture:</label>
-                <input type="file" name="image" id ="image" accept=".jpg, .jpeg, .png" class="form-control m-2">
-                <button type="submit" class="btn" style="border: none;background-color: #215273;color: #FE5955;font-size: large;font-weight: 600;">
-                    Add Docter
-                </button>
-            </form>
-         </div>
-
-         <div style="text-align: center;">
-            <a class="btn" href="docters.php" role="button" style="border: none;background-color: #46A8A9;color: #215273;font-size: large;font-weight: 600;">Return to Docters</a>
-        </div>
-
         
+
+        <div style="background-image: url('img/create_doc_recp.png');background-repeat: no-repeat;height: 710px;">
+            <div style="text-align: center;">
+                <h1 style="color: #215273; font-size: 40pt; font-weight: 400;">Add Docter</h1>
+            </div>
+
+            <div style="margin-top: 23px;width: 550px;height: 546px;background-color: rgba(255, 255, 255, 0.7);border: 2px solid black;margin-left: 451px;padding-right: 70px;">
+                <form class="form-inline m-2" action="create1.php" method="POST">
+                    <label for="name" style="padding-left: 130px;font-size: 20pt;font-weight: 500;color: #073D51;">Name:</label>
+                    <input type="text" class="form-control m-1" id="name" name="name" style="width: 240px;font-size: 12pt;color: #073D51;">
+                    <label for="score" style="padding-left: 95px;font-size: 20pt;font-weight: 500;color: #073D51;">Surname:</label>
+                    <input type="text" class="form-control m-1" id="surname" name="surname" style="width: 240px;font-size: 12pt;color: #073D51;">
+                    <label for="score" style="padding-left: 154px;font-size: 20pt;font-weight: 500;color: #073D51;">Age:</label>
+                    <input type="number" class="form-control m-1" id="age" name="age" style="width: 240px;font-size: 12pt;color: #073D51;">
+                    <label for="score" style="padding-left: 113px;font-size: 20pt;font-weight: 500;color: #073D51;">Gender:</label>
+                    <input type="text" class="form-control m-1" id="gender" name="gender" style="width: 240px;font-size: 12pt;color: #073D51;">
+                    <label for="score" style="padding-left: 136px;font-size: 20pt;font-weight: 500;color: #073D51;">Email:</label>
+                    <input type="text" class="form-control m-1" id="email" name="email" style="width: 240px;font-size: 12pt;color: #073D51;">
+                    <label for="score" style="padding-left: 88px;font-size: 20pt;font-weight: 500;color: #073D51;">Password:</label>
+                    <input type="text" class="form-control m-1" id="password" name="password" style="width: 240px;font-size: 12pt;color: #073D51;">
+                    <label for="score" style="padding-left: 17px;font-size: 20pt;font-weight: 500;color: #073D51;">Phone Number:</label>
+                    <input type="number" class="form-control m-1" id="phonenumber" name="phonenumber" style="width: 240px;font-size: 12pt;color: #073D51;">
+                    <label for="score" style="padding-left: 36px;font-size: 20pt;font-weight: 500;color: #073D51;">Specialisation:</label>
+                    <input type="text" class="form-control m-1" id="specialisation" name="specialisation" style="width: 240px;font-size: 12pt;color: #073D51;">
+                    <label for="score" style="padding-left: 22px;font-size: 20pt;font-weight: 500;color: #073D51;">Room Number:</label>
+                    <input type="text" class="form-control m-1" id="roomnumber" name="roomnumber" style="width: 240px;font-size: 12pt;color: #073D51;">
+                    <label for="score" style="padding-left: 26px;font-size: 20pt;font-weight: 500;color: #073D51;">Profile Picture:</label>
+                    <input type="file" name="image" id ="image" accept=".jpg, .jpeg, .png" class="form-control m-1" style="width: 240px;border: none;background-color: rgba(255, 255, 255, 0.1);">
+                    <button type="submit" class="btn" style="border: none;background-color: #215273;color: #FE5955;font-size: 16pt;;font-weight: 600;margin-top: 12px;margin-left: 190px;">
+                        Add Docter
+                    </button>
+                </form>
+            </div> 
+
+            <div style="text-align: center; margin-top: 20px;">
+                <a class="btn" href="docters.php" role="button" style="border: 2px solid #215273;background-color: #46A8A9;color: #215273;font-size: large;font-weight: 600;">
+                    Return to Docters
+                </a>
+            </div>
+
+        </div>
 
     </body>
 </html>
