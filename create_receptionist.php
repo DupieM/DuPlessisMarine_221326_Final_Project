@@ -31,7 +31,7 @@
             </div>
 
             <div style="margin-top: 23px;width: 550px;height: 506px;background-color: rgba(255, 255, 255, 0.7);border: 2px solid black;margin-left: 451px;padding-right: 70px;">
-                <form class="form-inline m-2" action="create2.php" method="POST">
+                <form class="form-inline m-2" action="create3.php" method="POST">
                     <label for="name" style="padding-left: 130px;font-size: 20pt;font-weight: 500;color: #073D51;">Name:</label>
                     <input type="text" class="form-control m-1" id="name" name="name" style="width: 240px;font-size: 12pt;color: #073D51;">
                     <label for="score" style="padding-left: 95px;font-size: 20pt;font-weight: 500;color: #073D51;">Surname:</label>
@@ -57,7 +57,7 @@
             </div> 
 
             <div style="text-align: center; margin-top: 20px;">
-                <a class="btn" href="docters.php" role="button" style="border: 2px solid #215273;background-color: #46A8A9;color: #215273;font-size: large;font-weight: 600;">
+                <a class="btn" href="receptionist.php" role="button" style="border: 2px solid #215273;background-color: #46A8A9;color: #215273;font-size: large;font-weight: 600;">
                     Return to Receptionists
                 </a>
             </div>
