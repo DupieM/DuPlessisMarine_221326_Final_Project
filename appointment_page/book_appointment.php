@@ -27,21 +27,31 @@
 
         <div style="background-image: url('img/create_doc_recp.png');background-repeat: no-repeat;height: 710px;">
             <div style="text-align: center;">
-                <h1 style="color: #215273; font-size: 40pt; font-weight: 400;">Add Patients</h1>
+                <h1 style="color: #215273; font-size: 40pt; font-weight: 400;">New Appointment</h1>
             </div>
 
-            <div style="margin-top: 23px;width: 550px;height: 506px;background-color: rgba(255, 255, 255, 0.7);border: 2px solid black;margin-left: 451px;padding-right: 70px;">
-                <form class="form-inline m-2" action="create4.php" method="POSt">
-                    <label for="name" style="padding-left: 130px;font-size: 20pt;font-weight: 500;color: #073D51;">ID:</label>
-                    <input type="number" class="form-control m-1" id="b_id" name="b_id" style="width: 240px;font-size: 12pt;color: #073D51;">
-                    <button type="submit" class="btn" style="border: none;background-color: #215273;color: #FE5955;font-size: 16pt;;font-weight: 600;margin-top: 12px;margin-left: 190px;">
+            <div style="margin-top: 23px;width: 570px;height: 70px;background-color: rgba(255, 255, 255, 0.7);border: 2px solid black;margin-left: 451px;">
+                <form class="form-inline m-2">
+                    <label for="name" style="font-size: 20pt;font-weight: 500;color: #073D51;">Name:</label>
+                    <input type="text" class="form-control m-1" id="name" name="name" style="width: 100px;font-size: 12pt;color: #073D51;">
+                    <label for="name" style="font-size: 20pt;font-weight: 500;color: #073D51;">Surname:</label>
+                    <input type="text" class="form-control m-1" id="surname" name="surname" style="width: 100px;font-size: 12pt;color: #073D51;">
+                   
+                    <button type="Submit" class="btn" style="border: none;background-color: #215273;color: #FE5955;font-size: large;font-weight: 600;">
                         Search
                     </button>
+
                 </form>
 
                 
 
-            </div> 
+            </div>
+
+            <div style="margin-top: 23px;width: 550px;height: 506px;background-color: rgba(255, 255, 255, 0.7);border: 2px solid black;margin-left: 451px;padding-right: 70px;">
+
+                <?php include 'create4.php'; ?>
+
+            </div>
 
            
 

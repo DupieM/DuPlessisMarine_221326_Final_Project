@@ -25,7 +25,7 @@
 
         
 
-        <div style="background-image: url('img/create_doc_recp.png');background-repeat: no-repeat;height: 710px;">
+        <div style="background-image: url('../img/create_doc_recp.png');background-repeat: no-repeat;height: 710px;">
             <div style="text-align: center;">
                 <h1 style="color: #215273; font-size: 40pt; font-weight: 400;">Add Docter</h1>
             </div>
