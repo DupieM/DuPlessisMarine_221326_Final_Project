@@ -1,5 +1,5 @@
 <?php
-    include 'db.php';
+    include '../db.php';
 
     $sql= "SELECT * FROM receptionists";
 
@@ -7,7 +7,7 @@
 
     while($row = $result->fetch_assoc()) {
         echo '<div class="col-4">';
-        echo '<img src="img/'.$row['Profile_pic'].'" style="width: 260px; height: 410px;border: 2px solid #00ABB2;">';
+        echo '<img src="../img/'.$row['Profile_pic'].'" style="width: 260px; height: 410px;border: 2px solid #00ABB2;">';
         echo '<div style="width: 260px; height: 380px;background-color: lightblue;margin-top: -10px;">';
         echo '<form class="form-inline m-2" action="update.php" method="POST" style="width: 140px;">';
         echo '<label for="name" style="font-weight: bold;color: #1F6C74;">Name & Surname:</label>';

@@ -1,9 +1,9 @@
 <?php
-    include 'db.php';
+    include '../db.php';
 
     $id = $_POST['id'];
     $name = $_POST['name'];
-    $surname = $_POST['name'];
+    $surname = $_POST['surname'];
     $age = $_POST['age'];
     $gender = $_POST['gender'];
     $email = $_POST['email'];

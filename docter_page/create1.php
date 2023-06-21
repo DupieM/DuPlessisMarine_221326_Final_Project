@@ -1,6 +1,6 @@
 <?php
 
-    include 'db.php';
+    include '../db.php';
 
     $name = $_POST['name'];
     $surname = $_POST['surname'];
