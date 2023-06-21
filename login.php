@@ -27,7 +27,7 @@
                     <h6 style="width: 340px;color: #215273;">Forgot Password?</h6>
                     <h5 style="width: 340px;color: #215273;">------------------ OR -------------------</h5>
                     <h4 style="width: 340px;text-decoration: underline;text-align: center;color: #215273;">Sign Up</h4>
-                    <a class="btn" href="appointment.php" role="button" style="border: none;background-color: #215273;color: #FE5955;font-size: 20pt;margin-top: 12px;margin-left: 105px;font-weight: bold;">
+                    <a class="btn" href="index.php" role="button" style="border: none;background-color: #215273;color: #FE5955;font-size: 20pt;margin-top: 12px;margin-left: 105px;font-weight: bold;">
                         Proceed
                     </a>
                 </form>

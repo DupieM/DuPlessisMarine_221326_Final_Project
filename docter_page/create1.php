@@ -20,5 +20,4 @@
     $conn->close();
 
     header("location: create_docters.php");
-
 ?>
