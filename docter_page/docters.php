@@ -27,7 +27,7 @@
 
         <div style="text-align: center;">
             <h1 style="color: #215273; font-size: 40pt; font-weight: 400;">Docters List</h1>
-            <a class="btn" href="create_docters.php" role="button" style="border: none;background-color: #215273;color: #FE5955;font-size: large;font-weight: 600;">Add Docter</a>
+            <?php include 'doc_bt_read.php'; ?>
         </div>
 
         </br>

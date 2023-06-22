@@ -23,37 +23,31 @@
             </a>
         </div>
 
-        
-
         <div style="background-image: url('img/create_doc_recp.png');background-repeat: no-repeat;height: 710px;">
             <div style="text-align: center;">
                 <h1 style="color: #215273; font-size: 40pt; font-weight: 400;">New Appointment</h1>
+                <a class="btn" href="appointment.php" role="button" style="border: 2px solid #215273;background-color: #46A8A9;color: #215273;font-size: 12pt;font-weight: 600;">Return to Appointments</a>
             </div>
 
-            <div style="margin-top: 23px;width: 570px;height: 70px;background-color: rgba(255, 255, 255, 0.7);border: 2px solid black;margin-left: 451px;">
+            <div style="margin-top: 23px;width: 570px;height: 70px;background-color: rgba(255, 255, 255, 0.7);border: 2px solid black;margin-left: 441px;">
                 <form class="form-inline m-2">
                     <label for="name" style="font-size: 20pt;font-weight: 500;color: #073D51;">Name:</label>
                     <input type="text" class="form-control m-1" id="name" name="name" style="width: 100px;font-size: 12pt;color: #073D51;">
-                    <label for="name" style="font-size: 20pt;font-weight: 500;color: #073D51;">Surname:</label>
+                    <label for="name" style="font-size: 20pt;font-weight: 500;color: #073D51;margin-left: 20px;">Surname:</label>
                     <input type="text" class="form-control m-1" id="surname" name="surname" style="width: 100px;font-size: 12pt;color: #073D51;">
                    
-                    <button type="Submit" class="btn" style="border: none;background-color: #215273;color: #FE5955;font-size: large;font-weight: 600;">
+                    <button type="Submit" class="btn" style="border: none;background-color: #215273;color: #FE5955;font-size: large;font-weight: 600;margin-left: 37px;">
                         Search
                     </button>
 
                 </form>
-
-                
-
             </div>
 
-            <div style="margin-top: 23px;width: 550px;height: 506px;background-color: rgba(255, 255, 255, 0.7);border: 2px solid black;margin-left: 451px;padding-right: 70px;">
+            <div style="margin-top: 23px;margin-bottum: 23px;width: 550px;height: 584px;background-color: rgba(255, 255, 255, 0.7);border: 2px solid black;margin-left: 451px;padding-right: 30px;">
 
                 <?php include 'create4.php'; ?>
 
             </div>
-
-           
 
         </div>
 

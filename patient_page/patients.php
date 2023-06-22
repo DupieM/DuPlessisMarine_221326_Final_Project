@@ -26,7 +26,7 @@
 
         <div style="text-align: center;">
             <h1 style="color: #215273; font-size: 40pt; font-weight: 400;">Patients List</h1>
-            <a class="btn" href="create_patients.php" role="button" style="border: none;background-color: #215273;color: #FE5955;font-size: large;font-weight: 600;">Add Patient</a>
+            <?php include 'pat_bt_read.php'; ?>
         </div>
 
         </br>

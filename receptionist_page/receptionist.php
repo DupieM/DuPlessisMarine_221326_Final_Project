@@ -12,7 +12,7 @@
     <body style="background-color:#ECFFFD;">
         <div class="topnav">
             <a href="..\appointment_page\appointment.php" style="margin-left: 0px;"><img src="..\img\dv logo.png" alt="logo" height="79" style="padding: 5px;"></a>
-            <a href="..\docter_page\docters.phpdocters.php" style="margin-left: 420px;font-size: 18pt;font-weight: 500;color: #87E4DA;text-decoration-line: none;"><img src="..\img\icon_doc.png" alt="doc" height="51">Doctors</a>
+            <a href="..\docter_page\docters.php" style="margin-left: 420px;font-size: 18pt;font-weight: 500;color: #87E4DA;text-decoration-line: none;"><img src="..\img\icon_doc.png" alt="doc" height="51">Doctors</a>
             <a href="..\patient_page\patients.php" style="margin-left: 10px;font-size: 18pt;font-weight: 500;color: #87E4DA;text-decoration-line: none;"><img src="..\img\icon_pat.png" alt="pat" height="51">Patients</a>
             <a href="receptionist.php" style="margin-left: 10px;font-size: 18pt;font-weight: bold;color: #87E4DA;text-decoration-line: none;"><img src="..\img\icon_recept.png" alt="pat" height="51">Receptionists</a>
             <a href="..\logout.php"  style="margin-left: 340px;">
@@ -26,7 +26,7 @@
 
         <div style="text-align: center;">
             <h1 style="color: #215273; font-size: 40pt; font-weight: 400;">Receptionists List</h1>
-            <a class="btn" href="create_receptionist.php" role="button" style="border: none;background-color: #215273;color: #FE5955;font-size: large;font-weight: 600;">Add Receptionist</a>
+            <?php include 'rec_bt_read.php'; ?>
         </div>
 
         </br>
