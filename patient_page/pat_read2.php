@@ -30,7 +30,7 @@
             echo '<td><input type="text" class="card-text" name="phonenumber" value="'.$row['Phone_Number'].'" style="border: none;font-size: large;width: 130px;background-color: #ECFFFD;color: #1F6C74;"></td>';
             echo '<td><input type="text" class="card-text" name="Medicalaidnum" value="'.$row['Medical_Aid_Number'].'" style="border: none;font-size: large;width: 170px;background-color: #ECFFFD;color: #1F6C74;"></td>';
             echo '<td><input type="text" class="card-text" name="Medicalfund" value="'.$row['Medical_Fund'].'" style="border: none;font-size: large;width: 170px;background-color: #ECFFFD;color: #1F6C74;"></td>';
-            echo '<td><button type="submit" class="btn btn-primary">Save</button></td>';
+            echo '<td><button type="submit" class="btn" style="background-color: #215273;color: #FE5955;font-size: 12pt;font-weight: 700;">Save</button></td>';
             echo '<input type="hidden" name="id" value="'.$row['ID'].'">';
             echo '</form>';
         }else{

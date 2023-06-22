@@ -31,8 +31,10 @@
         </br>
         </br>
 
-        <div class="row">
-            <?php include 'read.php'; ?>
+        <div style="margin-left: 60px;margin-right: 60px;">
+            <div class="row justify-content-center">
+                <?php include 'read.php'; ?>
+            </div>
         </div>
 
         <div style="text-align: center;">

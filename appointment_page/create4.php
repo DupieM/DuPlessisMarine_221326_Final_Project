@@ -29,7 +29,7 @@
         echo '<input type="text" name="phonenumber" value="'.$row['Phone_Number'].'" style="width: 190px;font-size: 17pt;color: #073D51;">';
         echo '<label for="name" style="font-size: 23pt;font-weight: 500;color: #073D51;margin-right: 9px;padding-left: 55px;">Medical Fund:</label>';
         echo '<input type="text" name="medicalfund" value="'.$row['Medical_Fund'].'" style="width: 190px;font-size: 17pt;color: #073D51;">';
-        echo '<label for="name" style="font-size: 23pt;font-weight: 500;color: #073D51;margin-right: 9px;padding-left: 35px;">M Aid Number:</label>';
+        echo '<label for="name" style="font-size: 23pt;font-weight: 500;color: #073D51;margin-right: 9px;padding-left: 35px;">M/Aid Number:</label>';
         echo '<input type="text" name="medicalaidnum" value="'.$row['Medical_Aid_Number'].'" style="width: 190px;font-size: 17pt;color: #073D51;">';
         echo '<label for="name" style="font-size: 23pt;font-weight: 500;color: #073D51;margin-right: 9px;padding-left: 84px;">Description:</label>';
         echo '<input type="text" name="description" style="width: 190px;font-size: 17pt;color: #073D51;">';

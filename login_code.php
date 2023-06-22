@@ -41,15 +41,35 @@ while ($row = $result->fetch_assoc()) {
 
 }
 
+    $sql_test = "SELECT * FROM receptionists";
+    $result_test = $conn->query($sql_test);
+
+    while ($row_test = $result_test->fetch_assoc()) {
+
+        if ($row_test['Status'] == 'Disabled') {
+            $SuperUser_Global = true;
+        } else if ($row_test['Status'] == 'Enabled') {
+            $SuperUser_Global = false;
+        }
+
+    }
+
+
+
+// if ($SuperUser_Global = true && $SuperUser_Global = false) {
+
+//     header("location: login.php?error=This User Account was Banned" );
+    
+// } else 
 if ($bFoundName == false) {
 
-    header("location: login.php?error=Incorrect Name");
+    header("location: login.php?error=Incorrect Email");
 
 } else if ($bFoundName == true && $bFoundPass == false) {
 
     header("location: login.php?error=Incorrect Password");
 
-} else if ($bFoundName == true && $bFoundPass == true) {
+} else  if ($bFoundName == true && $bFoundPass == true) {
 
     header("location: index.php");
 

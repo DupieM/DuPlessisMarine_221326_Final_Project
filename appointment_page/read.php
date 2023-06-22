@@ -27,13 +27,13 @@
             $Docter = $rowD['Name'] . ' ' . $rowD['Surname'];
         }
 
-        echo '<div class="col-4">';
-        echo '<div style="width: 260px; height: 100px;background-color: lightblue;margin-top: -10px;">';
-        echo '<h1 style="color: #1F6C74;font-size: medium;width: 140px;">' . $Patient . '</h1>';
-        echo '<h1 style="color: #1F6C74;font-size: medium;width: 140px;">' . date_format($date,"d/m") . '</h1>';
-        echo '<h1 style="color: #1F6C74;font-size: medium;width: 140px;">' . date_format($time,"H:i") . '</h1>';
+        echo '<div class="col-2">';
+        echo '<div style="width: 176px; height: 145px;background-color: lightblue;padding: 6px;">';
+        echo '<h1 style="color: #F46F36;font-size: medium;width: 140px;">' . $Patient . '</h1>';
+        echo '<h1 style="color: #1F6C74;font-size: medium;width: 140px;">' . date_format($date,"d/m") . ' ' . date_format($time,"H:i") . '</h1>';
         echo '<h1 style="color: #1F6C74;font-size: medium;width: 140px;">Dr. ' . $Docter . '</h1>';
         echo '<h1 style="color: #1F6C74;font-size: medium;width: 170px;">Desc: ' . $row['Description'] . '</h1>';
+        echo '<img src="../img/dustbin.png" style="height: 23px;margin-left: 140px;">';
         echo '</div>';
         echo '</br>';
         echo '</br>';

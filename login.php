@@ -13,9 +13,11 @@
     <body>
         <div style="height: 786px;background-color: #ECFFFD;width: 1440px">
 
-            <img src="img\dv logo.png" alt="Logo" class="logo" style="margin-bottom: 640px;margin-left: 305px;">
+            <img src="img\dv logo.png" alt="Logo" class="logo" style="margin-bottom: 620px;margin-left: 305px;">
 
-            <div style="margin-top: -570px;margin-left: 200px;">
+            <img src="img\login.png" alt="image of patern" style="height: 795.5px;margin-left: 815.5px;margin-top: -777px;">
+
+            <div style="margin-top: -610px;margin-left: 200px;">
                 <h1 style="font-weight: bold; font-size: 35pt;text-decoration: underline;color: #215273;">Log In</h1>
                 <form class="form-inline m-2" style="width: 400px;" action="login_code.php">
                     <label for="name" style="font-weight: bold; font-size: 20pt;color: #215273;">Email:</label>
@@ -28,18 +30,24 @@
                     <button type="Submit" class="btn" style="border: none;background-color: #215273;color: #FE5955;font-size: 20pt;margin-top: 12px;margin-left: 105px;font-weight: bold;">
                         Proceed
                     </button>
-                    <?php
-                        if (isset($_GET['error'])) { ?>
 
-                        <p style="color: red; width: 400px; text-align: center; font-size: 24px;">
-                            <?php echo $_GET['error']; ?>
-                        </p>
+                    
+                        <?php
+                            if (isset($_GET['error'])) { ?>
 
-                    <?php } ?>
+                            <p style="color: #FE5955;font-size: 25pt;margin-top: 10px;width: 350px;text-align: center;">
+                                <?php echo $_GET['error']; ?>
+                            </p>
+
+                        <?php } ?>
+                    
+                    
+                    
+
                 </form>
             </div>
     
-            <img src="img\login.png" alt="image of patern" style="height: 795.5px;margin-left: 815.5px;margin-top: -642px;">
+            
             
         </div>
         
