@@ -3,6 +3,7 @@
 
     include '../db.php';
 
+    // Get the name and surname from the search bar
     $name = $_GET['name'];
     $surname = $_GET['surname'];
 
@@ -16,7 +17,7 @@
     $sqlR = "SELECT Name, Surname, ID FROM receptionists";
     $resultR = $conn->query($sqlR);
 
-
+    // The form that will appear after a chosen patient is inserted
     if($row = $result->fetch_assoc()) {
         echo '<form class="form-inline m-2" action="create5.php" method="POST">';
         echo '<input type="hidden" name="id" value="'.$row['ID'].'" style="border: none;font-size: large;width: 150px;background-color: lightBlue;color: #1F6C74;">';

@@ -31,7 +31,7 @@
                         Proceed
                     </button>
 
-                    
+                        <!-- Display error messages -->
                         <?php
                             if (isset($_GET['error'])) { ?>
 

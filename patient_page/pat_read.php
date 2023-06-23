@@ -18,6 +18,8 @@
     $sql= "SELECT * FROM patients";
     $result = $conn->query($sql);
 
+    // To help derterman what to show when which receptionist in logged in
+    // If user is a master
     if ($SuperUser_Global == true) {
 
         while($row = $result->fetch_assoc()) {
@@ -28,7 +30,7 @@
 
             echo '<div class="col-4">';
             echo '<img src="../img/'.$row['Profile_pic'].'" style="width: 260px; height: 410px;border: 2px solid #00ABB2;">';
-            echo '<div style="width: 260px; height: 480px;background-color: lightblue;margin-top: -10px;">';
+            echo '<div style="width: 260px; height: 510px;background-color: lightblue;margin-top: -10px;">';
             echo '<form class="form-inline m-2" action="update.php" method="POST" style="width: 240px;">';
             echo '<label for="name" style="font-weight: bold;color: #1F6C74;">Name & Surname:</label>';
             echo '<input type="text" name="name" value="'.$row['Name'].' '.$row['Surname'].'" style="border: none;font-size: large;width: 240px;background-color: lightBlue;color: #1F6C74;">';
@@ -62,6 +64,7 @@
             echo '</div>';
         }
     
+        // If user is a genereal
     }else if ($SuperUser_Global == false) {
 
         while($row = $result->fetch_assoc()) {

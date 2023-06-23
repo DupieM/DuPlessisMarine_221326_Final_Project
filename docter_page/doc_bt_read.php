@@ -16,9 +16,9 @@
     }
 
     $sql= "SELECT * FROM docters";
-
     $result = $conn->query($sql);
 
+    // To help derterman what to show when which receptionist in logged in
     // If the user is a master
     if ($SuperUser_Global == true) {
 
@@ -29,6 +29,7 @@
          
         }
     
+        // If user is a genereal
     }else if ($SuperUser_Global == false) {
 
         if($row = $result->fetch_assoc()) {

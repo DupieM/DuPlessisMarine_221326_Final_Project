@@ -1,12 +1,14 @@
 <?php
     include '../db.php';
 
+    // Dertermine what dates needs to be shown and in what order needs to be placed
     $sql= "SELECT * FROM appointments WHERE Day >= curdate() ORDER BY Day, Time";
 
     $result = $conn->query($sql);
 
     while($row = $result->fetch_assoc()) {
 
+        // Format the date and time for appointment
         $date=date_create($row['Day']);
         $time=date_create($row['Time']);
 
@@ -27,6 +29,7 @@
             $Docter = $rowD['Name'] . ' ' . $rowD['Surname'];
         }
 
+        // Show how the appointments will be displayed
         echo '<div class="col-2">';
         echo '<div style="width: 176px; height: 145px;background-color: lightblue;padding: 6px;">';
         echo '<h1 style="color: #F46F36;font-size: medium;width: 140px;">' . $Patient . '</h1>';

@@ -7,6 +7,7 @@
 
     $result = $conn->query($sql);
 
+    // To showcase the data in the form of a table
     while($row = $result->fetch_assoc()) {
         echo '<tr>';
         echo '<th style="border: 2px solid #13484E;width: 60px;text-align: center;background-color: #359D9E;color: #13484E;font-size: 16pt;padding: 10px;">Name</th>';

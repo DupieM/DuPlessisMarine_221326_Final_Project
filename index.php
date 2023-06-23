@@ -17,6 +17,7 @@
 
             <div style="margin-top: -500px;margin-left: 200px;width: 400px;text-align: center;">
                 <h1 style="font-weight: bold; font-size: 45pt;text-decoration: none;color: #215273;">Hello</h1>
+                <!-- Display name of receptionist that is logged in -->
                 <h1 style="font-weight: bold; font-size: 45pt;text-decoration: none;color: #215273; margin-top: -15px;"><?php include 'name.php'; ?></h1>
                 </br>
                 </br>

@@ -19,7 +19,8 @@
 
     $result = $conn->query($sql);
 
-    // If the user is a master
+    // To help derterman what to show when which receptionist in logged in
+    // If user is a master
     if ($SuperUser_Global == true) {
 
         while($row = $result->fetch_assoc()) {
@@ -52,7 +53,8 @@
             echo '</br>';
             echo '</div>';
         }
-    
+
+    // If user is a genereal
     }else if ($SuperUser_Global == false) {
 
         while($row = $result->fetch_assoc()) {

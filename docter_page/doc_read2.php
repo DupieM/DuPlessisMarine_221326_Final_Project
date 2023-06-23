@@ -7,6 +7,7 @@
 
     $result = $conn->query($sql);
 
+    // To showcase the data in the form of a table
     while($row = $result->fetch_assoc()) {
         echo '<tr>';
         echo '<th style="border: 2px solid #13484E;width: 60px;text-align: center;background-color: #359D9E;color: #13484E;font-size: 16pt;padding: 10px;">Name</th>';
@@ -31,7 +32,7 @@
             echo '<td style="border: 2px solid #13484E;background-color: #00ABB2;padding: 20px;"><input type="text" class="card-text" name="specialisation" value="'.$row['Specialisation'].'" style="border: none;font-size: 14pt;font-weight: 600;width: 160px;background-color: #87E4DA;color: #1F6C74;text-align: center;"></td>';
             echo '<td style="border: 2px solid #13484E;background-color: #00ABB2;padding: 20px;"><input type="text" class="card-text" name="roomnumber" value="'.$row['Room_Number'].'" style="border: none;font-size: 14pt;font-weight: 600;width: 120px;background-color: #87E4DA;color: #1F6C74;text-align: center;"></td>';
             echo '<input type="hidden" name="id" value="'.$row['ID'].'">';
-            echo '<button type="submit" class="btn" style="background-color: #215273;color: #FE5955;font-size: 17pt;font-weight: 700;margin-top: -25px; margin-bottom: 20px;margin-left: 680px;">Save</button>';
+            echo '<button type="submit" class="btn" style="background-color: #215273;color: #FE5955;font-size: 17pt;font-weight: 700;margin-top: -25px; margin-bottom: 20px;margin-left: 680px;">Save</button>'; // Update
             echo '</form>';
         }else{
             echo "<td>" . $row['Name'] . "</td>";
