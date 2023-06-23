@@ -9,9 +9,11 @@
     $email = $_POST['email'];
     $phonenumber = $_POST['phonenumber'];
     $rank = $_POST['rank'];
+    $status = $_POST['status'];
+
 
     $sql = "UPDATE receptionists SET Name='$name', Surname='$surname', Age='$age', Gender='$gender', Email='$email',
-    Phone_Number='$phonenumber', Rank='$rank' WHERE id='$id'";
+    Phone_Number='$phonenumber', Rank='$rank', Status='$status' WHERE id='$id'";
 
     $result = $conn->query($sql);
     $conn->close();

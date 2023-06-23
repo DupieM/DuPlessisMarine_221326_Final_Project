@@ -8,6 +8,7 @@
         <title>Appointment</title>
 
         <link rel="stylesheet" href="..\style.css">
+        <script src="../index.js"></script>
     </head>
 
     <body style="background-color:#ECFFFD;">
@@ -40,10 +41,13 @@
                         Search
                     </button>
 
+
+
+
                 </form>
             </div>
 
-            <div style="margin-top: 23px;margin-bottum: 23px;width: 550px;height: 584px;background-color: rgba(255, 255, 255, 0.7);border: 2px solid black;margin-left: 451px;padding-right: 30px;">
+            <div style="margin-top: 23px;margin-bottum: 23px;width: 570px;height: 584px;background-color: rgba(255, 255, 255, 0.7);border: 2px solid black;margin-left: 441px;padding-right: 30px;">
 
                 <?php include 'create4.php'; ?>
 

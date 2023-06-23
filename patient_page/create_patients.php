@@ -30,7 +30,7 @@
                 <h1 style="color: #215273; font-size: 40pt; font-weight: 400;">Add Patients</h1>
             </div>
 
-            <div style="margin-top: 23px;width: 550px;height: 506px;background-color: rgba(255, 255, 255, 0.7);border: 2px solid black;margin-left: 451px;padding-right: 70px;">
+            <div style="margin-top: 23px;width: 550px;height: 540px;background-color: rgba(255, 255, 255, 0.7);border: 2px solid black;margin-left: 451px;padding-right: 70px;">
                 <form class="form-inline m-2" action="create2.php" method="POST">
                 <label for="name" style="padding-left: 130px;font-size: 20pt;font-weight: 500;color: #073D51;">Name:</label>
                     <input type="text" class="form-control m-1" id="name" name="name" style="width: 240px;font-size: 12pt;color: #073D51;">
@@ -46,8 +46,10 @@
                     <input type="text" class="form-control m-1" id="password" name="password" style="width: 240px;font-size: 12pt;color: #073D51;">
                     <label for="score" style="padding-left: 17px;font-size: 20pt;font-weight: 500;color: #073D51;">Phone Number:</label>
                     <input type="number" class="form-control m-1" id="phonenumber" name="phonenumber" style="width: 240px;font-size: 12pt;color: #073D51;">
-                    <label for="score" style="padding-left: 9px;font-size: 20pt;font-weight: 500;color: #073D51;">Medical Aid No.:</label>
+                    <label for="score" style="padding-left: 17px;font-size: 20pt;font-weight: 500;color: #073D51;">M/Aid Number:</label>
                     <input type="number" class="form-control m-1" id="medicalaidnum" name="medicalaidnum" style="width: 240px;font-size: 12pt;color: #073D51;">
+                    <label for="score" style="padding-left: 40px;font-size: 20pt;font-weight: 500;color: #073D51;">Medical Fund:</label>
+                    <input type="text" class="form-control m-1" id="medicalaidfund" name="medicalaidnum" style="width: 240px;font-size: 12pt;color: #073D51;">
                     <label for="score" style="padding-left: 26px;font-size: 20pt;font-weight: 500;color: #073D51;">Profile Picture:</label>
                     <input type="file" name="image" id ="image" accept=".jpg, .jpeg, .png" class="form-control m-1" style="width: 240px;border: none;background-color: rgba(255, 255, 255, 0.1);">
                     <button type="submit" class="btn" style="border: none;background-color: #215273;color: #FE5955;font-size: 16pt;;font-weight: 600;margin-top: 12px;margin-left: 190px;">

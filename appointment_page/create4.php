@@ -1,5 +1,5 @@
 <?php
-    // error_reporting(0);
+    error_reporting(0);
 
     include '../db.php';
 
@@ -16,6 +16,7 @@
     $sqlR = "SELECT Name, Surname, ID FROM receptionists";
     $resultR = $conn->query($sqlR);
 
+
     if($row = $result->fetch_assoc()) {
         echo '<form class="form-inline m-2" action="create5.php" method="POST">';
         echo '<input type="hidden" name="id" value="'.$row['ID'].'" style="border: none;font-size: large;width: 150px;background-color: lightBlue;color: #1F6C74;">';
@@ -29,12 +30,12 @@
         echo '<input type="text" name="phonenumber" value="'.$row['Phone_Number'].'" style="width: 190px;font-size: 17pt;color: #073D51;">';
         echo '<label for="name" style="font-size: 23pt;font-weight: 500;color: #073D51;margin-right: 9px;padding-left: 55px;">Medical Fund:</label>';
         echo '<input type="text" name="medicalfund" value="'.$row['Medical_Fund'].'" style="width: 190px;font-size: 17pt;color: #073D51;">';
-        echo '<label for="name" style="font-size: 23pt;font-weight: 500;color: #073D51;margin-right: 9px;padding-left: 35px;">M/Aid Number:</label>';
+        echo '<label for="name" style="font-size: 23pt;font-weight: 500;color: #073D51;margin-right: 9px;padding-left: 30px;">M/Aid Number:</label>';
         echo '<input type="text" name="medicalaidnum" value="'.$row['Medical_Aid_Number'].'" style="width: 190px;font-size: 17pt;color: #073D51;">';
         echo '<label for="name" style="font-size: 23pt;font-weight: 500;color: #073D51;margin-right: 9px;padding-left: 84px;">Description:</label>';
         echo '<input type="text" name="description" style="width: 190px;font-size: 17pt;color: #073D51;">';
         echo '<label for="name" style="font-size: 23pt;font-weight: 500;color: #073D51;margin-right: 9px;padding-left: 56px;">Select Doctor:</label>';
-        echo '<select name="app_doctor"  style="width: 184px;font-size: 17pt;color: #073D51;height: 42px;">';
+        echo '<select name="app_doctor"  style="width: 189px;font-size: 17pt;color: #073D51;height: 42px;">';
         echo '<option name="doctor_select" value="none"></option>';
 
         while ($rowD = $resultD->fetch_assoc()) {
@@ -43,7 +44,7 @@
         
         echo '</select>';
         echo '<label for="name" style="font-size: 23pt;font-weight: 500;color: #073D51;margin-right: 9px;padding-left: 86px;">Booking by:</label>';
-        echo '<select name="app_recep"  style="width: 184px;font-size: 17pt;color: #073D51;height: 42px;">';
+        echo '<select name="app_recep"  style="width: 189px;font-size: 17pt;color: #073D51;height: 42px;">';
         echo '<option name="doctor_select" value="none"></option>';
 
         while ($rowR = $resultR->fetch_assoc()) {
@@ -52,10 +53,10 @@
         
         echo '</select>';
         echo '<label for="name"style="font-size: 23pt;font-weight: 500;color: #073D51;margin-right: 9px;padding-left: 178px;">Date:</label>';
-        echo '<input type="date" id="date" name="date"  style="width: 173px;font-size: 17pt;color: #073D51;">';
+        echo '<input type="date" id="date" name="date"  style="width: 191px;font-size: 17pt;color: #073D51;">';
         echo '<label for="name" style="font-size: 23pt;font-weight: 500;color: #073D51;margin-right: 9px;padding-left: 174px;">Time:</label>';
-        echo '<input type="text" name="time"  style="width: 100px;font-size: 17pt;color: #073D51;">';
-        echo '<button type="submit" class="btn" style="border: none;background-color: #215273;color: #FE5955;font-size: 16pt;;font-weight: 600;margin-top: 12px;margin-bottom: 20px;margin-left: 190px;">';
+        echo '<input type="time" name="time" style="width: 192px;font-size: 17pt;color: #073D51;">';
+        echo '<button type="submit" class="btn" style="border: none;background-color: #215273;color: #FE5955;font-size: 16pt;;font-weight: 600;margin-top: 12px;margin-bottom: 20px;margin-left: 190px;"">';
         echo 'Make Booking';
         echo '</button>';
         echo '</form>';

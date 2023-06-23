@@ -31,7 +31,7 @@
         </br>
         </br>
 
-        <table class="table">
+        <table style="margin-left: 37px;">
             <tbody>
                 <?php include 'pat_read2.php'; ?>
             </tbody>

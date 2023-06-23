@@ -25,7 +25,7 @@
 
         <div style="text-align: center;">
             <h1 style="color: #215273; font-size: 40pt; font-weight: 400;">Appointments</h1>
-            <h3 style="color: #215273; font-size: 35pt; font-weight: 300;">June 2023</h3>
+            <h3 style="color: #215273; font-size: 35pt; font-weight: 300;">2023 - Current</h3>
         </div>
 
         </br>

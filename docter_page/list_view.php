@@ -31,7 +31,7 @@
         </br>
         </br>
 
-        <table class="table">
+        <table style="margin-left: 27px;">
             <tbody>
                 <?php include 'doc_read2.php'; ?>
             </tbody>

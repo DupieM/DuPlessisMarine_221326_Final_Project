@@ -31,7 +31,7 @@
         </br>
         </br>
 
-        <table class="table" style="margin-left: 60px;">
+        <table style="margin-left: 130px;">
             <tbody>
                 <?php include 'rec_read2.php'; ?>
             </tbody>

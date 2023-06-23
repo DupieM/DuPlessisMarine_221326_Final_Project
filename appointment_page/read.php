@@ -1,7 +1,7 @@
 <?php
     include '../db.php';
 
-    $sql= "SELECT * FROM appointments ORDER BY Day, Time";
+    $sql= "SELECT * FROM appointments WHERE Day >= curdate() ORDER BY Day, Time";
 
     $result = $conn->query($sql);
 
@@ -33,7 +33,9 @@
         echo '<h1 style="color: #1F6C74;font-size: medium;width: 140px;">' . date_format($date,"d/m") . ' ' . date_format($time,"H:i") . '</h1>';
         echo '<h1 style="color: #1F6C74;font-size: medium;width: 140px;">Dr. ' . $Docter . '</h1>';
         echo '<h1 style="color: #1F6C74;font-size: medium;width: 170px;">Desc: ' . $row['Description'] . '</h1>';
-        echo '<img src="../img/dustbin.png" style="height: 23px;margin-left: 140px;">';
+        echo '<a class="btn" href="delete4.php?id=' . $row['ID'] . '" role="button">'; 
+        echo '<img src="../img/dustbin.png" style="height: 23px;margin-left: 130px; margin-top: -16px;">';
+        echo '</a>'; 
         echo '</div>';
         echo '</br>';
         echo '</br>';

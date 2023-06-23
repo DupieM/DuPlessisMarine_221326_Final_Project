@@ -23,7 +23,7 @@
     if ($SuperUser_Global == true) {
 
         if($row = $result->fetch_assoc()) {
-            echo '<a class="btn" href="create_docters.php" role="button" style="border: none;background-color: #215273;color: #FE5955;font-size: large;font-weight: 600;">';
+            echo '<a class="btn" href="create_patients.php" role="button" style="border: none;background-color: #215273;color: #FE5955;font-size: large;font-weight: 600;">';
             echo 'Add Patient';
             echo '</a>';
          
