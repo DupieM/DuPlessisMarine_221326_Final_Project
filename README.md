@@ -55,11 +55,11 @@ We needed to develop a website for a medical office which will be used by the pr
 I chose to do a medical practisioners office that will host surgeons.
 
 ### Built With
-XAMPP - Cross-Platform, Apache, MySQL, PHP, and Perl
-PHP - Hypertext Preprocessor
-CSS - Cascading Style Sheet
-GitHub - Internet hosting service for software development and version control using GIT
-Visual Studio - Integranted Development Enviroment
+XAMPP - Cross-Platform, Apache, MySQL, PHP, and Perl </br>
+PHP - Hypertext Preprocessor </br>
+CSS - Cascading Style Sheet </br>
+GitHub - Internet hosting service for software development and version control using GIT </br>
+Visual Studio - Integranted Development Enviroment </br>
 
 ## Getting Started
 
@@ -99,28 +99,33 @@ If you require XAMPP do the following steps:
 
 ## Features and Functionality
 ### Log In Page
-    I needed to allow at least 3 receptionist with two different types of profiles to log into the management portal. I needed to design it in such way that it must authenticate the email and password against the database.
+    I needed to allow at least 3 receptionist with two different types of profiles to log into the management portal. 
+    I needed to design it in such way that it must authenticate the email and password against the database.
 
 ### Appointment Page
-    On this page all the upcoming appointments for a period will be shown. It also needed to contain the primary navigation for the management portal. The primary navigation takes you to either the doctors, patients or receptionist page. On this page a receptionist must view bookings, be able to add a appointment and be able to delete an existing appointment. When you add an appointment you will search for the patient (Name & Surname) where by the patient information will be retrieved and additional fields for the appointment will be displayed.
+    On this page all the upcoming appointments for a period will be shown. It also needed to contain the primary navigation for the management portal. The primary navigation takes you to either the doctors, patients or receptionist page. 
+    On this page a receptionist must view bookings, be able to add a appointment and be able to delete an existing appointment. When you add an appointment you will search for the patient (Name & Surname) where by the patient information will be retrieved and additional fields for the appointment will be displayed.
 
 ### Doctors Page
-    On this page the profiles of all the registered doctors will be shown. Only the head receptionist will be able to Add a new doctor, Update an existing doctor and be able to Delete a doctor.
+    On this page the profiles of all the registered doctors will be shown. 
+    Only the head receptionist will be able to Add a new doctor, Update an existing doctor and be able to Delete a doctor.
 
 ### Patients Page
-    On this page the profiles of all the registered patients will be shown. Only the head receptionist will be able to Add a new patient, Update an existing patient and be able to Delete a patient.
+    On this page the profiles of all the registered patients will be shown. 
+    Only the head receptionist will be able to Add a new patient, Update an existing patient and be able to Delete a patient.
 
 ### Receptionists Page
     On this page the profiles of all the registered receptionists will be shown. Only the head receptionist will be able to Add a new receptionist, Update an existing receptionist and be able to Delete a receptionist. The head receptionist must also be able to Ban a receptionist.
 
 ## Concept Process
 
-I went with a simple and minimalistic UI design that fits a medical practioners office. I went with a lot of different shades of blue seeing that doctors are mostly represented by blue and white. For contrast I added a bright red. I aslo decided to use icons that aligns with the theme of the three pages of the doctors, patients and receptionist. I also used icons on the login page that represent doctors. I designed a logo for the medical practioners office as well.
+I went with a simple and minimalistic UI design that fits a medical practioners office. 
+I went with a lot of different shades of blue seeing that doctors are mostly represented by blue and white. 
+For contrast I added a bright red. I aslo decided to use icons that aligns with the theme of the three pages of the doctors, patients and receptionist. I also used icons on the login page that represent doctors. I designed a logo for the medical practioners office as well.
 
 ### Wireframes
 
-<!-- ![image8](client/src/Assets/mockups/wireframes.jpg) -->
-![image1](img_part2/wireframes/Log_In.png)
+![image1](img_part2/wireframes/Log-In.png)
 ![image2](img_part2/wireframes/Appointment.png)
 ![image3](img_part2/wireframes/Book_Appointment.png)
 ![image4](img_part2/wireframes/Docters.png)
@@ -154,14 +159,14 @@ Improving on viewing the appointments in a five day table format for the week.
 
 ### Mockups
 
-![image1][img_part2/mockups/mockup1.jpg]
-![image2][img_part2/mockups/mockup2.jpg]
-![image3][img_part2/mockups/mockup3.jpg]
-![image4][img_part2/mockups/mockup4.jpg]
-![image5][img_part2/mockups/mockup5.jpg]
-![image6][img_part2/mockups/mockup6.jpg]
-![image7][img_part2/mockups/mockup7.jpg]
-![image8][img_part2/mockups/mockup8.jpg]
+![image1][img_part2/mockups/mockup1.png]
+![image2][img_part2/mockups/mockup2.png]
+![image3][img_part2/mockups/mockup3.png]
+![image4][img_part2/mockups/mockup4.png]
+![image5][img_part2/mockups/mockup5.png]
+![image6][img_part2/mockups/mockup6.png]
+![image7][img_part2/mockups/mockup7.png]
+![image8][img_part2/mockups/mockup8.png]
 <br>
 
 ### Video Demonstration
