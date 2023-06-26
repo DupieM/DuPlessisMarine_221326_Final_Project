@@ -159,14 +159,14 @@ Improving on viewing the appointments in a five day table format for the week.
 
 ### Mockups
 
-![image1][img_part2/mockups/mockup1.png]
-![image2][img_part2/mockups/mockup2.png]
-![image3][img_part2/mockups/mockup3.png]
-![image4][img_part2/mockups/mockup4.png]
-![image5][img_part2/mockups/mockup5.png]
-![image6][img_part2/mockups/mockup6.png]
-![image7][img_part2/mockups/mockup7.png]
-![image8][img_part2/mockups/mockup8.png]
+![image1](img_part2/mockups/mockup1.png)
+![image2](img_part2/mockups/mockup2.png)
+![image3](img_part2/mockups/mockup3.png)
+![image4](img_part2/mockups/mockup4.png)
+![image5](img_part2/mockups/mockup5.png)
+![image6](img_part2/mockups/mockup6.png)
+![image7](img_part2/mockups/mockup7.png)
+![image8](img_part2/mockups/mockup8.png)
 <br>
 
 ### Video Demonstration
