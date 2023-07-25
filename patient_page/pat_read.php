@@ -30,7 +30,7 @@
 
             echo '<div class="col-4">';
             echo '<img src="../img/'.$row['Profile_pic'].'" style="width: 260px; height: 410px;border: 2px solid #00ABB2;">';
-            echo '<div style="width: 260px; height: 510px;background-color: lightblue;margin-top: -10px;">';
+            echo '<div style="width: 260px; height: 570px;background-color: lightblue;margin-top: -10px;">';
             echo '<form class="form-inline m-2" action="update.php" method="POST" style="width: 240px;">';
             echo '<label for="name" style="font-weight: bold;color: #1F6C74;">Name & Surname:</label>';
             echo '<input type="text" name="name" value="'.$row['Name'].' '.$row['Surname'].'" style="border: none;font-size: large;width: 240px;background-color: lightBlue;color: #1F6C74;">';
