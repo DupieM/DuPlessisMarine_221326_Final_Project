@@ -17,15 +17,28 @@ while ($row = $result->fetch_assoc()) {
 
         // --Test if the password is correct
         if ($row['Password'] == $Password) {
+
             $bFoundPass = true;
 
             // ----Change which user is currently signed in
             $sql2 = "UPDATE receptionists SET SignIn_ID = '1' WHERE Password = '$Password'";
             $result = $conn->query($sql2);
 
-            //----exit the loop
-            break;
+            if ($row['Status'] == "Enabled") {
 
+                $bFoundStat = true;
+
+                //----exit the loop
+                break;
+
+            } else {
+
+                $bFoundStat = false;
+
+                //----exit the loop
+                break;
+
+            }
 
             // --Password is incorrect
         } else {
@@ -46,11 +59,15 @@ if ($bFoundName == false) {
 
     header("location: login.php?error=Incorrect Email");
 
-} else if ($bFoundName == true && $bFoundPass == false) {
+} else if ($bFoundName == true && $bFoundPass == false && $bFoundStat == false) {
 
     header("location: login.php?error=Incorrect Password");
 
-} else if ($bFoundName == true && $bFoundPass == true) {
+} else if ($bFoundName == true && $bFoundPass == true && $bFoundStat == false) {
+
+    header("location: login.php?error=You are banned");
+
+} else if ($bFoundName == true && $bFoundPass == true && $bFoundStat == true) {
 
     header("location: index.php");
 
