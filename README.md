@@ -135,15 +135,13 @@ On this page the profiles of all the registered receptionists will be shown. Onl
 ! [image6]()
 
 ## Development Process
-## Theme of Web Application
-
+### Theme of Web Application
 
 I went with a simple and minimalistic UI design that fits a medical practioners office. 
 I went with a lot of different shades of blue seeing that doctors are mostly represented by blue and white. 
 For contrast I added a bright red. I aslo decided to use icons that aligns with the theme of the three pages of the doctors, patients and receptionist. I also used icons on the login page that represent doctors. I designed a logo for the medical practioners office as well.
 
-## ER Diagram
-
+### ER Diagram
 
 As can seen below is an ER Diagram for my `Medical Practioners Office`. This diagram helped me alot with knowing what tables in my database needed to be connected together to be able to work properly when runnnig the database.
 
