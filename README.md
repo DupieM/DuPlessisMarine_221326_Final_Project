@@ -1,8 +1,3 @@
-<h5 align="center" style="padding:0;margin:0;">Mariné du Plessis</h5>
-<h5 align="center" style="padding:0;margin:0;">221326</h5>
-<h6 align="center">DV200 | Term 2</h6>
-</br>
-
 <p align="center">
 
   <a href="https://github.com/DupieM/DuPlessisMarine_221326_Final_Project">
@@ -10,11 +5,12 @@
   </a>
 
 <h3 align="center">Medical Office</h3>
+<h4 align="center">This is a website application for a medical practioners office.</h4>
+
+<h5 align="center" style="padding:0;margin:0;">Mariné du Plessis</h5>
+</br>
 
   <p align="center">
-    This is a website application for a medical practioners office.<br>
-
-   <br />
    <br />
     ·
     <a href="https://github.com/DupieM/DuPlessisMarine_221326_Final_Project/issues">Report Bug</a>
@@ -26,6 +22,7 @@
 
 ## Table of Contents
 
+- [Mockup](#mockup)
 - [About the Project](#about-the-project)
     - [Project Description](#project-description)
     - [Built With](#built-with)
@@ -33,33 +30,38 @@
     - [Prerequisites](#prerequisites)
     - [How to install](#how-to-install)
 - [Features and Functionality](#features-and-functionality)
-- [Concept Process](#concept-process)
-    - [Ideation](#ideation)
-    - [Wireframes](#wireframes)
 - [Development Process](#development-process)
+    - [Theme of Website Application](#theme-of-website-application)
+    - [ER Diagram](#er-diagram)
     - [Implementation Process](#implementation-process)
         - [Highlights](#highlights)
         - [Challenges](#challenges)
     - [Future Implementation](#peer-reviews)
 - [Final Outcome](#final-outcome)
-    - [Mockups](#mockups)
     - [Video Demonstration](#video-demonstration)
 - [Conclusion](#conclusion)
 
 <!--PROJECT DESCRIPTION-->
 
+# Mockup
+
+![image1](img_part2/mockups/mockup1.png)
+
 ## About the Project
 ### Project Description
+
 This term we were tasked to create a persistent data sytem, by developing a management portal for a medical practitioners office.
 We needed to develop a website for a medical office which will be used by the practice receptionists. This application will manage Doctors, Patients and their consultations at the practice. 
 I chose to do a medical practisioners office that will host surgeons.
 
 ### Built With
-XAMPP - Cross-Platform, Apache, MySQL, PHP, and Perl </br>
-PHP - Hypertext Preprocessor </br>
-CSS - Cascading Style Sheet </br>
-GitHub - Internet hosting service for software development and version control using GIT </br>
-Visual Studio - Integranted Development Enviroment </br>
+
+* <a href="https://www.apachefriends.org/">![Static Badge](https://img.shields.io/badge/Xampp-url?style=for-the-badge&logo=XAmPP&logoColor=white&color=orange)</a>
+* <a href="https://www.php.net/">![Static Badge](https://img.shields.io/badge/PHP-url?style=for-the-badge&logo=PHP&logoColor=white&color=blue)</a>
+* <a href="https://github.com/"> ![Static Badge](https://img.shields.io/badge/Github-url?style=for-the-badge&logo=github&color=purple)</a>
+* <a href="https://code.visualstudio.com/"> ![Static Badge](https://img.shields.io/badge/visual%20studio-url?style=for-the-badge&logo=visual%20studio&logoColor=blue&color=black&link=https%3A%2F%2Fcode.visualstudio.com%2F)</a>
+
+
 
 ## Getting Started
 
@@ -99,45 +101,51 @@ If you require XAMPP do the following steps:
 
 ## Features and Functionality
 ### Log In Page
-    I needed to allow at least 3 receptionist with two different types of profiles to log into the management portal. 
-    I needed to design it in such way that it must authenticate the email and password against the database.
+
+I needed to allow at least 3 receptionist with two different types of profiles to log into the management portal. 
+I needed to design it in such way that it must authenticate the email and password against the database.
+
+! [image2]()
 
 ### Appointment Page
-    On this page all the upcoming appointments for a period will be shown. It also needed to contain the primary navigation for the management portal. The primary navigation takes you to either the doctors, patients or receptionist page. 
-    On this page a receptionist must view bookings, be able to add a appointment and be able to delete an existing appointment. When you add an appointment you will search for the patient (Name & Surname) where by the patient information will be retrieved and additional fields for the appointment will be displayed.
+
+On this page all the upcoming appointments for a period will be shown. It also needed to contain the primary navigation for the management portal. The primary navigation takes you to either the doctors, patients or receptionist page. 
+On this page a receptionist must view bookings, be able to add a appointment and be able to delete an existing appointment. When you add an appointment you will search for the patient (Name & Surname) where by the patient information will be retrieved and additional fields for the appointment will be displayed.
+
+! [image3]()
 
 ### Doctors Page
-    On this page the profiles of all the registered doctors will be shown. 
-    Only the head receptionist will be able to Add a new doctor, Update an existing doctor and be able to Delete a doctor.
+
+On this page the profiles of all the registered doctors will be shown. 
+Only the head receptionist will be able to Add a new doctor, Update an existing doctor and be able to Delete a doctor.
+
+! [image4]()
 
 ### Patients Page
-    On this page the profiles of all the registered patients will be shown. 
-    Only the head receptionist will be able to Add a new patient, Update an existing patient and be able to Delete a patient.
+
+On this page the profiles of all the registered patients will be shown. 
+Only the head receptionist will be able to Add a new patient, Update an existing patient and be able to Delete a patient.
+
+! [image5]()
 
 ### Receptionists Page
-    On this page the profiles of all the registered receptionists will be shown. Only the head receptionist will be able to Add a new receptionist, Update an existing receptionist and be able to Delete a receptionist. The head receptionist must also be able to Ban a receptionist.
 
-## Concept Process
+On this page the profiles of all the registered receptionists will be shown. Only the head receptionist will be able to Add a new receptionist, Update an existing receptionist and be able to Delete a receptionist. The head receptionist must also be able to Ban a receptionist.
+
+! [image6]()
+
+## Development Process
+## Theme of Web Application
 
 I went with a simple and minimalistic UI design that fits a medical practioners office. 
 I went with a lot of different shades of blue seeing that doctors are mostly represented by blue and white. 
 For contrast I added a bright red. I aslo decided to use icons that aligns with the theme of the three pages of the doctors, patients and receptionist. I also used icons on the login page that represent doctors. I designed a logo for the medical practioners office as well.
 
-### Wireframes
+## ER Diagram
 
-![image1](img_part2/wireframes/Log-In.png)
-![image2](img_part2/wireframes/Appointment.png)
-![image3](img_part2/wireframes/Book_Appointment.png)
-![image4](img_part2/wireframes/Docters.png)
-![image5](img_part2/wireframes/Create_Doctor.png)
-![image6](img_part2/wireframes/Patients.png)
-![image7](img_part2/wireframes/Create_Patient.png)
-![image8](img_part2/wireframes/Receptionist.png)
-![image9](img_part2/wireframes/Create_Receptionist.png)
+As can seen below is an ER Diagram for my `Medical Practioners Office`. This diagram helped me alot with knowing what tables in my database needed to be connected together to be able to work properly when runnnig the database.
 
-## Development Process
-
-The `Development Process` is the technical implementations and functionality done for the website.
+! [image7](img_part2/ER_Diagram.jpg) 
 
 ### Implementation Process
 #### Highlights
@@ -156,24 +164,13 @@ Adding success and failure messages right through the application.
 Improving on viewing the appointments in a five day table format for the week.
 
 ## Final Outcome
-
-### Mockups
-
-![image1](img_part2/mockups/mockup1.png)
-![image2](img_part2/mockups/mockup2.png)
-![image3](img_part2/mockups/mockup3.png)
-![image4](img_part2/mockups/mockup4.png)
-![image5](img_part2/mockups/mockup5.png)
-![image6](img_part2/mockups/mockup6.png)
-![image7](img_part2/mockups/mockup7.png)
-![image8](img_part2/mockups/mockup8.png)
-<br>
-
 ### Video Demonstration
 
-[View Demonstration](img_part2/DuPlessisMariné_221326_DV200_Demonstration_Video.mp4)
+[View Demonstration]()
 
+# Conclusion
+### License
+Rights reserved © 2023
 
-## Contact
-**Mariné du Plessis** - [gmail](mdp.marine@gmail.com)
-- **Project Link** - https://github.com/DupieM/DuPlessisMarine_221326_Final_Project
+### Author
+**Mariné du Plessis** [Gmail](mdp.marine@gmail.com)
