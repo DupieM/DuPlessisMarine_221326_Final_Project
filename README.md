@@ -58,6 +58,7 @@ I chose to do a medical practisioners office that will host surgeons.
 
 * <a href="https://www.apachefriends.org/">![Static Badge](https://img.shields.io/badge/Xampp-url?style=for-the-badge&logo=XAmPP&logoColor=white&color=orange)</a>
 * <a href="https://www.php.net/">![Static Badge](https://img.shields.io/badge/PHP-url?style=for-the-badge&logo=PHP&logoColor=white&color=blue)</a>
+* <a href="https://www.w3schools.com/js/">![Static Badge](https://img.shields.io/badge/Javascript-url?style=for-the-badge&logo=JS&color=yellow)</a>
 * <a href="https://github.com/"> ![Static Badge](https://img.shields.io/badge/Github-url?style=for-the-badge&logo=github&color=purple)</a>
 * <a href="https://code.visualstudio.com/"> ![Static Badge](https://img.shields.io/badge/visual%20studio-url?style=for-the-badge&logo=visual%20studio&logoColor=blue&color=black&link=https%3A%2F%2Fcode.visualstudio.com%2F)</a>
 
@@ -166,7 +167,7 @@ Improving on viewing the appointments in a five day table format for the week.
 ## Final Outcome
 ### Video Demonstration
 
-[View Demonstration]()
+[View Demonstration](https://drive.google.com/file/d/1opvXg6hlFOQ_ehp32ISCLa-VMKlKDs6o/view?usp=sharing)
 
 # Conclusion
 ### License
