@@ -105,34 +105,34 @@ If you require XAMPP do the following steps:
 I needed to allow at least 3 receptionist with two different types of profiles to log into the management portal. 
 I needed to design it in such way that it must authenticate the email and password against the database.
 
-! [image2]()
+<img src="img_part2/Final_Images/m1.JPG" width="600px">
 
 ### Appointment Page
 
 On this page all the upcoming appointments for a period will be shown. It also needed to contain the primary navigation for the management portal. The primary navigation takes you to either the doctors, patients or receptionist page. 
 On this page a receptionist must view bookings, be able to add a appointment and be able to delete an existing appointment. When you add an appointment you will search for the patient (Name & Surname) where by the patient information will be retrieved and additional fields for the appointment will be displayed.
 
-! [image3]()
+<img src="img_part2/Final_Images/m3.JPG" width="600px">
 
 ### Doctors Page
 
 On this page the profiles of all the registered doctors will be shown. 
 Only the head receptionist will be able to Add a new doctor, Update an existing doctor and be able to Delete a doctor.
 
-! [image4]()
+<img src="img_part2/Final_Images/m4.JPG" width="600px">
 
 ### Patients Page
 
 On this page the profiles of all the registered patients will be shown. 
 Only the head receptionist will be able to Add a new patient, Update an existing patient and be able to Delete a patient.
 
-! [image5]()
+<img src="img_part2\/inal_Images/m6.jpg" width="600px">
 
 ### Receptionists Page
 
 On this page the profiles of all the registered receptionists will be shown. Only the head receptionist will be able to Add a new receptionist, Update an existing receptionist and be able to Delete a receptionist. The head receptionist must also be able to Ban a receptionist.
 
-! [image6]()
+<img src="img_part2/Final_Images/m5.jpg" width="600px">
 
 ## Development Process
 ### Theme of Web Application
