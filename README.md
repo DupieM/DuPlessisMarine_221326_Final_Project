@@ -126,7 +126,7 @@ Only the head receptionist will be able to Add a new doctor, Update an existing 
 On this page the profiles of all the registered patients will be shown. 
 Only the head receptionist will be able to Add a new patient, Update an existing patient and be able to Delete a patient.
 
-<img src="img_part2\/inal_Images/m6.jpg" width="600px">
+<img src="img_part2/Final_Images/m6.jpg" width="600px">
 
 ### Receptionists Page
 
